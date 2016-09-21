@@ -12,3 +12,4 @@ function isSubstring(s1, s2){
 
   return false;
 }
+// I didn't change any code heheheeh
