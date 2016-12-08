@@ -1,0 +1,13 @@
+function uniteUnique(arr) {
+  var args = Array.prototype.slice.call(arguments);
+  var flattened = args.reduce(function(a, b) {
+  return a.concat(b);
+}, []);
+  console.log("flattened is " + flattened);
+  var uniqueArray = flattened.filter(function(element, index, array) {
+    return array.indexOf(element) == index;
+});
+  return uniqueArray;
+}
+
+uniteUnique([1, 3, 2], [5, 2, 1, 4], [2, 1]);
