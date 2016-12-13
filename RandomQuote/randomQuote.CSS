@@ -1,0 +1,33 @@
+h3 {
+  font-weight: bold;
+  font-color: red;
+}
+div.col-xs-6 {
+  border-style: solid;
+  border-width: 5px;
+}
+button {
+  
+}
+div.col-xs-4.rounded {
+  border: 2px solid;
+  border-color: #5bc0de;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  background-color: #5bc0de;
+}
+div.col-xs-8.rounded {
+  border: 2px solid;
+  border-color: #5bc0de;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  background-color: #5bc0de;
+}
+p {
+  font-family: "Lucida Sans Unicode";
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+}
